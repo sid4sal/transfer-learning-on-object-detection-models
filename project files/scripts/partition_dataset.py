@@ -20,7 +20,7 @@ import math
 import random
 
 
-def iterate_dir(source, dest, ratio, copy_xml):
+def iterate_dir(source, dest, ratio, copy_xml, copy_txt):
     source = source.replace('\\', '/')
     dest = dest.replace('\\', '/')
     train_dir = os.path.join(dest, 'train')
@@ -46,6 +46,10 @@ def iterate_dir(source, dest, ratio, copy_xml):
             xml_filename = os.path.splitext(filename)[0]+'.xml'
             copyfile(os.path.join(source, xml_filename),
                      os.path.join(test_dir,xml_filename))
+        if copy_txt:
+            txt_filename = os.path.splitext(filename)[0]+'.txt'
+            copyfile(os.path.join(source, txt_filename),
+                     os.path.join(test_dir,txt_filename))
         images.remove(images[idx])
 
     for filename in images:
@@ -55,6 +59,10 @@ def iterate_dir(source, dest, ratio, copy_xml):
             xml_filename = os.path.splitext(filename)[0]+'.xml'
             copyfile(os.path.join(source, xml_filename),
                      os.path.join(train_dir, xml_filename))
+        if copy_txt:
+            txt_filename = os.path.splitext(filename)[0]+'.txt'
+            copyfile(os.path.join(source, txt_filename),
+                     os.path.join(train_dir, txt_filename))
 
 
 def main():
@@ -85,13 +93,18 @@ def main():
         help='Set this flag if you want the xml annotation files to be processed and copied over.',
         action='store_true'
     )
+    parser.add_argument(
+        '-t', '--txt',
+        help='Set this flag if you want the txt annotation files to be processed and copied over.',
+        action='store_true'
+    )
     args = parser.parse_args()
 
     if args.outputDir is None:
         args.outputDir = args.imageDir
 
     # Now we are ready to start the iteration
-    iterate_dir(args.imageDir, args.outputDir, args.ratio, args.xml)
+    iterate_dir(args.imageDir, args.outputDir, args.ratio, args.xml, args.txt)
 
 
 if __name__ == '__main__':
