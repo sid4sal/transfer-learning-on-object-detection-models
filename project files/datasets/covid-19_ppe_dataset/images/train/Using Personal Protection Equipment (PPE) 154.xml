@@ -1,0 +1,26 @@
+<annotation>
+	<folder>final_image</folder>
+	<filename>Using Personal Protection Equipment (PPE) 154.jpg</filename>
+	<path>C:\Users\DELL-PC\Downloads\new ppe\ppe_pics\final_image\Using Personal Protection Equipment (PPE) 154.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>711</xmin>
+			<ymin>116</ymin>
+			<xmax>820</xmax>
+			<ymax>225</ymax>
+		</bndbox>
+	</object>
+</annotation>

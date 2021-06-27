@@ -1,0 +1,38 @@
+<annotation>
+	<folder>ppe hd</folder>
+	<filename>sm.jpg</filename>
+	<path>E:\ppe hd\sm.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>852</width>
+		<height>479</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>279</xmin>
+			<ymin>226</ymin>
+			<xmax>516</xmax>
+			<ymax>398</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Face_Shield</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>211</xmin>
+			<ymin>94</ymin>
+			<xmax>600</xmax>
+			<ymax>461</ymax>
+		</bndbox>
+	</object>
+</annotation>

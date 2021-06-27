@@ -1,0 +1,50 @@
+<annotation>
+	<folder>final_image</folder>
+	<filename>Demonstration of Donning (Putting On) Personal Protective Equipment (PPE) 195.jpg</filename>
+	<path>C:\Users\DELL-PC\Downloads\new ppe\ppe_pics\final_image\Demonstration of Donning (Putting On) Personal Protective Equipment (PPE) 195.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Coverall</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>328</xmin>
+			<ymin>298</ymin>
+			<xmax>756</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>392</xmin>
+			<ymin>238</ymin>
+			<xmax>514</xmax>
+			<ymax>317</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Face_Shield</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>97</xmin>
+			<ymin>595</ymin>
+			<xmax>292</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+</annotation>

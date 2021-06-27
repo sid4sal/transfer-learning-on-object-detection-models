@@ -1,0 +1,38 @@
+<annotation verified="yes">
+	<folder>final_image</folder>
+	<filename>How to properly wear personal protective equipment for airborne contaminants 278.jpg</filename>
+	<path>C:\Users\DELL-PC\Downloads\new ppe\ppe_pics\final_image\How to properly wear personal protective equipment for airborne contaminants 278.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Coverall</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>435</xmin>
+			<ymin>475</ymin>
+			<xmax>1201</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>640</xmin>
+			<ymin>268</ymin>
+			<xmax>805</xmax>
+			<ymax>468</ymax>
+		</bndbox>
+	</object>
+</annotation>

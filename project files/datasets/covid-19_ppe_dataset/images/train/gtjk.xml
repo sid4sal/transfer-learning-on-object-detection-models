@@ -1,0 +1,50 @@
+<annotation>
+	<folder>ppe hd</folder>
+	<filename>gtjk.jpg</filename>
+	<path>E:\ppe hd\gtjk.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2000</width>
+		<height>2000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Goggles</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>543</xmin>
+			<ymin>714</ymin>
+			<xmax>1373</xmax>
+			<ymax>1138</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>668</xmin>
+			<ymin>986</ymin>
+			<xmax>1276</xmax>
+			<ymax>1626</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Coverall</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>177</ymin>
+			<xmax>1995</xmax>
+			<ymax>2000</ymax>
+		</bndbox>
+	</object>
+</annotation>

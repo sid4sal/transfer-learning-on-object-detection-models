@@ -1,0 +1,24 @@
+item {
+    id: 1
+    name: 'Coverall'
+}
+
+item {
+    id: 2
+    name: 'Face_Shield'
+}
+
+item {
+    id: 3
+    name: 'Gloves'
+}
+
+item {
+    id: 4
+    name: 'Goggles'
+}
+
+item {
+    id: 5
+    name: 'Mask'
+}

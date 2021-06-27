@@ -1,0 +1,38 @@
+<annotation>
+	<folder>ppe hd</folder>
+	<filename>dgah.jpg</filename>
+	<path>E:\ppe hd\dgah.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>590</width>
+		<height>686</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>301</xmin>
+			<ymin>77</ymin>
+			<xmax>353</xmax>
+			<ymax>118</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Coverall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>145</xmin>
+			<ymin>12</ymin>
+			<xmax>458</xmax>
+			<ymax>683</ymax>
+		</bndbox>
+	</object>
+</annotation>

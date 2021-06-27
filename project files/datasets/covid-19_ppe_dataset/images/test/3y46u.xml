@@ -1,0 +1,38 @@
+<annotation>
+	<folder>ppe hd</folder>
+	<filename>3y46u.jpg</filename>
+	<path>E:\ppe hd\3y46u.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>296</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>150</xmin>
+			<ymin>39</ymin>
+			<xmax>179</xmax>
+			<ymax>69</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Coverall</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>78</xmin>
+			<ymin>1</ymin>
+			<xmax>237</xmax>
+			<ymax>495</ymax>
+		</bndbox>
+	</object>
+</annotation>

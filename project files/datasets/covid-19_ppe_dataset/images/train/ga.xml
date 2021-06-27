@@ -1,0 +1,50 @@
+<annotation>
+	<folder>ppe hd</folder>
+	<filename>ga.jpg</filename>
+	<path>E:\ppe hd\ga.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>594</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>284</xmin>
+			<ymin>329</ymin>
+			<xmax>323</xmax>
+			<ymax>388</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Face_Shield</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>241</xmin>
+			<ymin>271</ymin>
+			<xmax>351</xmax>
+			<ymax>402</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Coverall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>116</xmin>
+			<ymin>248</ymin>
+			<xmax>469</xmax>
+			<ymax>1094</ymax>
+		</bndbox>
+	</object>
+</annotation>

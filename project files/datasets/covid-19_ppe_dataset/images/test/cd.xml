@@ -1,0 +1,50 @@
+<annotation>
+	<folder>ppe hd</folder>
+	<filename>cd.jpg</filename>
+	<path>E:\ppe hd\cd.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1500</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Goggles</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>654</xmin>
+			<ymin>147</ymin>
+			<xmax>805</xmax>
+			<ymax>242</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>665</xmin>
+			<ymin>225</ymin>
+			<xmax>786</xmax>
+			<ymax>323</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Coverall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>471</xmin>
+			<ymin>40</ymin>
+			<xmax>986</xmax>
+			<ymax>1464</ymax>
+		</bndbox>
+	</object>
+</annotation>

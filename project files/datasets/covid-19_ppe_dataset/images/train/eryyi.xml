@@ -1,0 +1,50 @@
+<annotation>
+	<folder>ppe hd</folder>
+	<filename>eryyi.jpg</filename>
+	<path>E:\ppe hd\eryyi.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>920</width>
+		<height>613</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>349</xmin>
+			<ymin>240</ymin>
+			<xmax>535</xmax>
+			<ymax>455</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Goggles</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>284</xmin>
+			<ymin>159</ymin>
+			<xmax>595</xmax>
+			<ymax>312</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Coverall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>34</xmin>
+			<ymin>8</ymin>
+			<xmax>741</xmax>
+			<ymax>612</ymax>
+		</bndbox>
+	</object>
+</annotation>

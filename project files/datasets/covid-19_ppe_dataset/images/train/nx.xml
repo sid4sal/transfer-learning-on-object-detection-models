@@ -1,0 +1,38 @@
+<annotation>
+	<folder>ppe hd</folder>
+	<filename>nx.jpg</filename>
+	<path>E:\ppe hd\nx.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1560</width>
+		<height>2340</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>256</xmin>
+			<ymin>1163</ymin>
+			<xmax>1316</xmax>
+			<ymax>2070</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Goggles</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>154</xmin>
+			<ymin>730</ymin>
+			<xmax>1421</xmax>
+			<ymax>1255</ymax>
+		</bndbox>
+	</object>
+</annotation>

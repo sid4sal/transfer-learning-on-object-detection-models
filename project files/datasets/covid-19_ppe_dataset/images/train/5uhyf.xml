@@ -1,0 +1,38 @@
+<annotation>
+	<folder>ppe hd</folder>
+	<filename>5uhyf.jpg</filename>
+	<path>E:\ppe hd\5uhyf.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>564</xmin>
+			<ymin>322</ymin>
+			<xmax>909</xmax>
+			<ymax>648</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Face_Shield</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>449</xmin>
+			<ymin>116</ymin>
+			<xmax>984</xmax>
+			<ymax>616</ymax>
+		</bndbox>
+	</object>
+</annotation>
