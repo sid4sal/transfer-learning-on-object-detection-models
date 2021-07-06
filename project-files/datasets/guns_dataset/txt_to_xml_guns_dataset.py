@@ -17,7 +17,7 @@ from re import S
 
 def iterate_dir(source, dest):
 
-    for txt_file in glob.glob(source + '*.txt'):
+    for txt_file in glob.glob(source + '/*.txt'):
 
         f = open(txt_file)
         f_str = f.read()
@@ -28,6 +28,7 @@ def iterate_dir(source, dest):
 
         fx = open(txt_file.replace(".txt",".xml"), "x")
         fx.write("<annotation> \n")
+        fx.write("  <filename>{}.jpeg</filename> \n".format(txt_file.replace(source,"").replace(".txt","").replace("/","").replace("\\","")))
         for i in range(n):
             xmin = lst[(i*4)+1]
             ymin = lst[(i*4)+2]
