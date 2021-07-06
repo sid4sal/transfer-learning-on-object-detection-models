@@ -1,21 +1,27 @@
-<annotation> 
-  <filename>239.jpeg</filename> 
-  <object> 
-      <name>Gun</name> 
-      <bndbox> 
-          <xmin>97</xmin> 
-          <ymin>68</ymin> 
-          <xmax>142</xmax> 
-          <ymax>96</ymax> 
-      </bndbox> 
-  </object> 
-  <object> 
-      <name>Gun</name> 
-      <bndbox> 
-          <xmin>234</xmin> 
-          <ymin>34</ymin> 
-          <xmax>272</xmax> 
-          <ymax>56</ymax> 
-      </bndbox> 
-  </object> 
+<annotation>
+  <filename>239.jpeg</filename>
+  <size>
+      <width>276</width>
+      <height>183</height>
+      <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+      <name>Gun</name>
+      <bndbox>
+          <xmin>97</xmin>
+          <ymin>68</ymin>
+          <xmax>142</xmax>
+          <ymax>96</ymax>
+      </bndbox>
+  </object>
+  <object>
+      <name>Gun</name>
+      <bndbox>
+          <xmin>234</xmin>
+          <ymin>34</ymin>
+          <xmax>272</xmax>
+          <ymax>56</ymax>
+      </bndbox>
+  </object>
 </annotation>
