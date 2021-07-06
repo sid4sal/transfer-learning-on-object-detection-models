@@ -1,0 +1,11 @@
+<annotation> 
+  <object> 
+      <name>Gun</name> 
+      <bndbox> 
+          <xmin>99</xmin> 
+          <ymin>45</ymin> 
+          <xmax>176</xmax> 
+          <ymax>154</ymax> 
+      </bndbox> 
+  </object> 
+</annotation>
