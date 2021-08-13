@@ -1,15 +1,23 @@
 # Transfer Learning on Object Detection Models
 Creating an object detector with Transfer Learning on a pre-trained model Using TensorFlow's Object Detection API
 
-
+## Training Examples
 * Example:- Transfer learning on ssd_mobilenet_v2_640x640 model to detect Mask, Face Sheild, Full Cover, Gloves, Goggles (using TF's Object Detection API)  
   I got a total loss < 0.25 after 4k steps (2 hrs of training).  
   
   
   PPE kit detector (ssd_mobilenet_v2):- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sid4sal/transfer-learning-on-object-detection-models/blob/main/Transfer_Learning_on_ssd_mobilenet_v2_ppe_dataset.ipynb)
+  * Total Loss plot:-  
+    ![loss_ppe](https://github.com/sid4sal/images/blob/master/total_loss_ppe.png)
+  * Predictions:-  
+    ![ppe_detect1](https://github.com/sid4sal/images/blob/master/detect_img1.jpg)
 
 * Example:- Transfer learning on ssd_mobilenet_v1_640x640 model to detect Guns (using TF's Object Detection API) | 4k steps (2 hrs of training).  
-
+  * Total Loss plot:-  
+    ![loss_guns](https://github.com/sid4sal/images/blob/master/total_loss_guns.png)
+  * Predictions:-  
+    ![guns_detect2](https://github.com/sid4sal/images/blob/master/detect_2.jpg)  
+    ![guns_detect3](https://github.com/sid4sal/images/blob/master/detect_3.jpg)  
 
   Guns detector (ssd_mobilenet_v1):- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sid4sal/transfer-learning-on-object-detection-models/blob/main/Transfer_Learning_on_ssd_mobilenet_v1_guns_dataset.ipynb)
 
