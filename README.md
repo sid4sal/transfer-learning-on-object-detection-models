@@ -72,5 +72,5 @@ I trained the SSD_MobileNet_V1 model on the Guns dataset, with and without freez
 
 **Result : While Training SSD_MobileNet_V1 model on the Guns dataset, Freezing first 4 to 8 FeatureExtractor Layers performs best.**
 
-* Data :- [freeze_vs_no_freeze.xlsx](/uploads/c0087e89b735f9e68d1d87f8a1179d3a/freeze_vs_no_freeze.xlsx) or [![Open in Google Sheets](https://img.shields.io/badge/Freez_vs_No_Freez_Data-Google_Sheets-<COLOR>.svg)](https://docs.google.com/spreadsheets/d/1-4oCDiqYI8WThltOqmsLwxmmlTLOkSjCAZMhnsODoak/edit?usp=sharing)
+* Data :- [![Open in Google Sheets](https://img.shields.io/badge/Freez_vs_No_Freez_Data-Google_Sheets-<COLOR>.svg)](https://docs.google.com/spreadsheets/d/1-4oCDiqYI8WThltOqmsLwxmmlTLOkSjCAZMhnsODoak/edit?usp=sharing)
 * Github :- [![Open Github](https://img.shields.io/badge/Transfer_Learning_on_Object_Detection_Models-Github-<COLOR>.svg)](https://github.com/sid4sal/transfer-learning-on-object-detection-models)
